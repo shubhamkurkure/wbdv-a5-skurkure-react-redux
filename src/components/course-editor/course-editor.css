@@ -1,0 +1,52 @@
+.wbdv-content-row {
+  height: 100%;
+}
+
+.wbdv-editor-left-pane {
+  height: 100%;
+}
+
+.wbdv-editor-content {
+  width: 80%;
+  padding-top: 5px;
+}
+
+.wbdv-editor-head-title {
+  padding-top: 5px;
+}
+
+.wbdv-editor-head-title-text {
+  display: inline;
+  font-weight: lighter;
+}
+
+.wbdv-editor-nav-pills .nav-item {
+  border: 3px !important;
+  border-radius: 0.25rem;
+  font-weight: lighter;
+}
+
+.wbdv-editor-nav-pills .nav-link .disabled {
+  color: #434343;
+}
+
+.wbdv-editor-nav-pills > .nav-link > .disabled:hover {
+  color: #434343;
+}
+
+.wbdv-editor-nav-pills .nav-link {
+  font-weight: lighter;
+}
+
+.list-group-item {
+  font-weight: lighter;
+  margin-top: 5%;
+}
+
+.list-group-item {
+  margin: 5px;
+}
+
+.wbdv-editor-nav-pills.lesson-tabs-editable-item {
+  align-items: center;
+}
