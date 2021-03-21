@@ -33,7 +33,7 @@ const TopicPills = ({
                 deleteItem={deleteTopic}
                 selectItem={selectTopic}
                 selected={selected}
-                isActive={topic._id === topicId ? "active" : ""}
+                active={topic._id === topicId}
               />
             </li>
           ))}
