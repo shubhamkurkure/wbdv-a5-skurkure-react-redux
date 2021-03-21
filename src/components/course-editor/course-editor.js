@@ -26,7 +26,6 @@ const store = createStore(reducer);
 const CourseEditor = ({ history, course, findCourseById }) => {
   const { layout, courseId, moduleId, topicId } = useParams();
   let mdiv;
-  let wdiv;
   if (moduleId !== "undefined" && typeof moduleId !== "undefined") {
     mdiv = (
       <div>
@@ -51,9 +50,7 @@ const CourseEditor = ({ history, course, findCourseById }) => {
         <div className="col-3">
           <ModuleList />
         </div>
-        <div className="col-9">
-          <div className="row">{mdiv}</div>
-          <div className="row">{wdiv}</div>
+        <div className="col-9">{mdiv}
         </div>
       </div>
     </Provider>
