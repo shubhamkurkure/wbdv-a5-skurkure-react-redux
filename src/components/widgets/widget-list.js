@@ -28,14 +28,14 @@ const WidgetList = ({
 
   useEffect(() => {
     findWidgetsForTopic(topicId);
-  }, [topicId]);
+  }, [topicId, findWidgetsForTopic]);
 
   return (
     <div>
       <h2>
         Widgets
         <i
-          className="ml-4 fas fa-plus text-primary"
+          className="ml-4 fas fa-plus"
           onClick={() => createWidget(topicId)}
         />
       </h2>
